@@ -1,0 +1,213 @@
+//
+//  PrefixHeader.pch
+//  Section
+//
+//  Created by QZL on 2017/2/20.
+//  Copyright © 2017年 WTF. All rights reserved.
+//
+
+/**
+ 
+       fﾆヽ
+ 　　　 |_||
+ 　　　 |= |
+ 　　　 |_ |
+ 　　/⌒|~ |⌒i-、
+ 　 /|　|　|　| ｜                                   true life fucked everyone
+ 　｜(　(　(　( ｜
+ 　｜　　　　　 ｜
+ 　 ＼　　　　　/
+ 　　 ＼
+ 
+                                                    ★★☆☆☆
+ 
+ 待那花开尽, 落得袖盈香
+ 
+ */
+
+//lalalalalalalaalalalalalalalalalalalalalal
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//https://git.coding.net/yao_operator/Section.git
+
+//dadaadadaadadadad
+
+#pragma -- 系统相关 --
+#import <AudioToolbox/AudioToolbox.h>
+#import <math.h>
+#import <CoreData/CoreData.h>
+
+#pragma -- 第三方框架 --
+
+#import "NSString+URLCoder.h"
+#import "TTTAttributedLabel.h"
+#import "UIView+ChangeSize.h"
+#import "AFNetworking.h"
+#import "Masonry.h"
+#import "MJExtension.h"
+#import "MJRefresh.h"
+#import "SVProgressHUD.h"
+#import "UIImageView+WebCache.h"
+#import "AppDelegate.h"
+#import "UIImage+YZImage.h"
+#import "BabyBluetooth.h"
+#import "NetworkManager.h"
+
+#import "GCDAsyncSocket.h"
+#import "GCDAsyncUdpSocket.h"
+#import "IQKeyboardManager.h"
+
+#pragma -- 自定义工具类 --
+#import <AipOcrSdk/AipOcrSdk.h>
+#import "G8Constants.h"
+#import "G8Tesseract.h"
+#import "YZCustomCameraViewController.h"
+#import "UIColor+UIColor.h"
+#import "QZLNetworkManger.h"
+#import "CrazyEncrypt.h"
+#import "YZUnit.h"
+#import "YZUserManager.h"
+#import "YZBasicTabbarController.h"
+#import "YZBasicNavigationController.h"
+#import "YZBasicViewController.h"
+
+#import "GCDAsynSocketManager.h"
+#import "YZDemoSession.h"
+#import "INTULocationManager.h"
+#import "CocoaSecurity.h"
+
+#import "SimpleWebViewController.h"
+
+#define Server_Host @"https://tkd.qianzhenglong.cn/app/request"
+#define Server_Host_Infomation @"https://tkd.qianzhenglong.cn/app/infomation"
+#define Server_Host_share @"https://tkd.qianzhenglong.cn/app/index.html?zoneId="
+#define Server_Host_Banner @"https://tkd.qianzhenglong.cn/app/banner.html?id="
+#define Server_Goods_Banner @"https://tkd.qianzhenglong.cn/app/goods.html?id="
+
+
+//#define Server_Host @"http://60.219.169.5/app/request"
+//#define Server_Host_Infomation @"http://60.219.169.5/app/infomation"
+//#define Server_Host_share @"https://tkd.qianzhenglong.cn/app/index.html?zoneId="
+//#define Server_Host_Banner @"http://60.219.169.5/app/banner.html?id="
+//#define Server_Goods_Banner @"http://60.219.169.5/app/goods.html?id="
+
+#pragma -- 第三方标识 --
+/* 阿里百川 */
+#define ALBCAPPKEY 23884812
+#define ALBCAPPSECRET 4bbf829ca2029d16bb797421c7533536
+
+
+//本项目中NAV高度
+#define kCommonNavigationbarHeight                                  64
+#define kNavigationBarHeight                                        44
+#define kStatusBarHeight                                            20
+#define kTabbarHeight                                               49
+
+#define kSystemFontName                                             @"FZYXJW--GB1-0"
+#define kFontHanYiChengXingJian                                     @"HYChengXingJ"
+
+//重要通知
+#pragma --mark-- 获取未读消息的通知
+#define kRefreshBadgeValueOfNotificationController                  @"refreshBadgeValueOfNotificationController"
+
+//UmengTrack
+#define UMENG_APPKEY                                                @"561df316e0f55a8a52000275"
+#define UMOnlineConfigDidFinishedNotification                       @"OnlineConfigDidFinishedNotification"
+#define XcodeAppVersion                                             [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+#define kSetSharePid @"setSharePidNotification"
+
+//2x3x屏幕比例
+#define kScreenProportion                                           1.29375
+#define kScreenProportion6                                          1.171875
+
+//获取屏幕 宽度、高度
+#define k_SCREEN_WIDTH                                                ([UIScreen mainScreen].bounds.size.width)
+#define k_SCREEN_HEIGHT                                               ([UIScreen mainScreen].bounds.size.height)
+
+//适配
+#define W(float) [UIView setWidth:(float)]
+#define H(float) [UIView setHeight:(float)]
+#define WIDTH [UIScreen mainScreen].bounds.size.width
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
+
+//2x3x屏幕比例
+#define kScreenProportion 1.29375
+#define kScreenProportion6 1.171875
+
+//监听网络状态
+#define kUnKnownNetWorkStatus                                       @"AFNetworkReachabilityStatusUnknown"
+#define kNotReachableNetWorkStatus                                  @"AFNetworkReachabilityStatusNotReachable"
+#define kViaWWANNetWorkStatus                                       @"AFNetworkReachabilityStatusReachableViaWWAN"
+#define kWifiStatus                                                 @"AFNetworkReachabilityStatusReachableViaWiFi"
+#define kLoginViewControllerClosed                                  @"loginViewControllerClosed"
+
+//判断是否 Retina屏、设备是否%fhone 5、是否是iPad
+#if TARGET_IPHONE_SIMULATOR//模拟器
+
+#define isRetina ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhonePLUS ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhonePlus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2001), [[UIScreen mainScreen] currentMode].size) : NO)
+#define isPad (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+
+#elif TARGET_OS_IPHONE//真机
+
+#define isRetina ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhonePLUS ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) || CGSizeEqualToSize(CGSizeMake(1125, 2001), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhonePlus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2001), [[UIScreen mainScreen] currentMode].size) : NO)
+#define isPad (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+
+#endif
+
+//获取系统版本
+#define IOS_VERSION                                                 [[[UIDevice currentDevice] systemVersion] floatValue]
+#define CurrentSystemVersion                                        [[UIDevice currentDevice] systemVersion]
+
+//判断是真机还是模拟器
+#if TARGET_OS_IPHONE
+//iPhone Device
+#endif
+
+#if TARGET_IPHONE_SIMULATOR
+//iPhone Simulator
+#endif
+
+//检查系统版本
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+//读取本地图片
+#define LOADIMAGE(file,ext)                                         [UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:file ofType:ext]]
+
+//定义UIImage对象
+#define IMAGE(imageName)                                            [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]
+
+// rgb颜色转换（16进制->10进制）
+#define UIColorFromRGB(rgbValue)                                    [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+// 获取RGB颜色
+#define RGBA(r,g,b,a)                                               [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGB(r,g,b)                                                  RGBA(r,g,b,1.0f)
+
+
+#define IS_IOS7 (([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)? (YES):(NO))
+#define IS_IOS6 (([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0)? (YES):(NO))
+#define IS_4INCH ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+//释放内存
+#define RELEASE_SAFE(_Pointer) do{[_Pointer release],_Pointer = nil;}while(0)
+
+#endif /* PrefixHeader_pch */
+
+
