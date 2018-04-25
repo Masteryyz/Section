@@ -305,7 +305,11 @@ G8TesseractDelegate
                     [str containsString:@"nO"]
                     ) {
                     
-                    NoIndex = idx;
+                    if (NoIndex == -1) {
+                     
+                        NoIndex = idx;
+                        
+                    }
                     
                 }
                 
