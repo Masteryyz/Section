@@ -1309,6 +1309,7 @@
 				CODE_SIGN_ENTITLEMENTS = Section/Section.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: lei shi (4TD33EVVQU)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = M75ML254GL;
 				ENABLE_BITCODE = NO;
@@ -1341,6 +1342,7 @@
 				CODE_SIGN_ENTITLEMENTS = Section/Section.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: lei shi (4TD33EVVQU)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = M75ML254GL;
 				ENABLE_BITCODE = NO;
