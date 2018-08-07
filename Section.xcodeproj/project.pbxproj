@@ -16,6 +16,11 @@
 		1F06C1622064AEBD00938322 /* QZLNetworkManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F06C15F2064AEBC00938322 /* QZLNetworkManger.m */; };
 		1F06C1662064B1C500938322 /* UIColor+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F06C1642064B1C400938322 /* UIColor+UIColor.m */; };
 		1F06C1692064CD5400938322 /* YZCustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F06C1682064CD5400938322 /* YZCustomCameraViewController.m */; };
+		1F08ED0620D8ED9A007D9882 /* YZDefaultViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F08ED0520D8ED9A007D9882 /* YZDefaultViewModel.m */; };
+		1F08ED0920D8EDD8007D9882 /* YZCheckInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F08ED0820D8EDD8007D9882 /* YZCheckInViewController.m */; };
+		1F08ED0C20D8EEB6007D9882 /* YZScoreAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F08ED0B20D8EEB6007D9882 /* YZScoreAllViewController.m */; };
+		1F08ED0F20D8EEC6007D9882 /* YZSetBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F08ED0E20D8EEC6007D9882 /* YZSetBaseViewController.m */; };
+		1F08ED1520D903B6007D9882 /* YZVoiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F08ED1420D903B6007D9882 /* YZVoiceModel.m */; };
 		1F2BF0C11F0248B200C26755 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F2BF0C01F0248B200C26755 /* View.xib */; };
 		1F2BF0C41F02495000C26755 /* YZXIBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2BF0C31F02495000C26755 /* YZXIBView.m */; };
 		1F30F1F71E5D713B00B64687 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F30F1F61E5D713B00B64687 /* CoreImage.framework */; };
@@ -69,6 +74,10 @@
 		1F6DB89F1EB86206003BC8EE /* UPYUNConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DB8931EB86206003BC8EE /* UPYUNConfig.m */; };
 		1F6DB8A21EB86FA1003BC8EE /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DB8A11EB86FA1003BC8EE /* NetworkManager.m */; };
 		1F714FD81F0E1BF400D008D3 /* YZFoolPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F714FD71F0E1BF400D008D3 /* YZFoolPageController.m */; };
+		1F7B120F20CE6EFC00D00EE9 /* YKDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7B120E20CE6E3600D00EE9 /* YKDataBase.m */; };
+		1F85F38120D1FCE1007C1783 /* YZTeamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F85F38020D1FCE1007C1783 /* YZTeamModel.m */; };
+		1F85F38420D1FCEC007C1783 /* YZPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F85F38320D1FCEC007C1783 /* YZPlayerModel.m */; };
+		1F85F38C20D26D15007C1783 /* YZStatisticsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F85F38B20D26D15007C1783 /* YZStatisticsModel.m */; };
 		1F8917801F9897AC004E0443 /* NSString+URLCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F89177F1F9897AC004E0443 /* NSString+URLCoder.m */; };
 		1F8B680D1ED2B37700623DE1 /* YZBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B680C1ED2B37700623DE1 /* YZBasicViewController.m */; };
 		1F9DD8461E5A9A9700C10E92 /* YZBasicTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DD8451E5A9A9700C10E92 /* YZBasicTabbarController.m */; };
@@ -85,9 +94,13 @@
 		1FA2B4291EB0411200525C59 /* YZBlueToothServiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA2B4281EB0411200525C59 /* YZBlueToothServiceModel.m */; };
 		1FA674A81F7C9A8300A67C28 /* GCDAsynSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA674A71F7C9A8300A67C28 /* GCDAsynSocketManager.m */; };
 		1FB574D5207232F70066A5CC /* YZScanChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB574D4207232F70066A5CC /* YZScanChooseViewController.m */; };
+		1FC567BF20CF560C000591EB /* YZCheckinPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC567BE20CF560C000591EB /* YZCheckinPageController.m */; };
+		1FC567C220CF565C000591EB /* YZCheckinCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC567C120CF565C000591EB /* YZCheckinCell.m */; };
+		1FC567C520CF6FA9000591EB /* YZCodeSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC567C420CF6FA9000591EB /* YZCodeSave.m */; };
 		1FD427E41F97535000813C74 /* CrazyEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD427DE1F97535000813C74 /* CrazyEncrypt.m */; };
 		1FD427E51F97535000813C74 /* DES.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD427E01F97535000813C74 /* DES.m */; };
 		1FD427E61F97535000813C74 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD427E21F97535000813C74 /* GTMBase64.m */; };
+		1FF32E0D20B5098700DF5A86 /* YZSocketRocketUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF32E0C20B5098700DF5A86 /* YZSocketRocketUtility.m */; };
 		1FF7FF8D2064E70200B047C4 /* AipBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF7FF8A2064E70100B047C4 /* AipBase.framework */; };
 		1FF7FF8E2064E70200B047C4 /* AipBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF7FF8A2064E70100B047C4 /* AipBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1FF7FF8F2064E70200B047C4 /* AipOcrSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF7FF8B2064E70100B047C4 /* AipOcrSdk.framework */; };
@@ -167,6 +180,16 @@
 		1F06C1652064B1C400938322 /* UIColor+UIColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIColor.h"; sourceTree = "<group>"; };
 		1F06C1672064CD5400938322 /* YZCustomCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZCustomCameraViewController.h; sourceTree = "<group>"; };
 		1F06C1682064CD5400938322 /* YZCustomCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZCustomCameraViewController.m; sourceTree = "<group>"; };
+		1F08ED0420D8ED9A007D9882 /* YZDefaultViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZDefaultViewModel.h; sourceTree = "<group>"; };
+		1F08ED0520D8ED9A007D9882 /* YZDefaultViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZDefaultViewModel.m; sourceTree = "<group>"; };
+		1F08ED0720D8EDD8007D9882 /* YZCheckInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZCheckInViewController.h; sourceTree = "<group>"; };
+		1F08ED0820D8EDD8007D9882 /* YZCheckInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZCheckInViewController.m; sourceTree = "<group>"; };
+		1F08ED0A20D8EEB6007D9882 /* YZScoreAllViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZScoreAllViewController.h; sourceTree = "<group>"; };
+		1F08ED0B20D8EEB6007D9882 /* YZScoreAllViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZScoreAllViewController.m; sourceTree = "<group>"; };
+		1F08ED0D20D8EEC6007D9882 /* YZSetBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSetBaseViewController.h; sourceTree = "<group>"; };
+		1F08ED0E20D8EEC6007D9882 /* YZSetBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSetBaseViewController.m; sourceTree = "<group>"; };
+		1F08ED1320D903B6007D9882 /* YZVoiceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZVoiceModel.h; sourceTree = "<group>"; };
+		1F08ED1420D903B6007D9882 /* YZVoiceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZVoiceModel.m; sourceTree = "<group>"; };
 		1F2BF0C01F0248B200C26755 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		1F2BF0C21F02495000C26755 /* YZXIBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZXIBView.h; sourceTree = "<group>"; };
 		1F2BF0C31F02495000C26755 /* YZXIBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZXIBView.m; sourceTree = "<group>"; };
@@ -252,6 +275,15 @@
 		1F6DB8A11EB86FA1003BC8EE /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		1F714FD61F0E1BF400D008D3 /* YZFoolPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZFoolPageController.h; sourceTree = "<group>"; };
 		1F714FD71F0E1BF400D008D3 /* YZFoolPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZFoolPageController.m; sourceTree = "<group>"; };
+		1F7B120D20CE6E3600D00EE9 /* YKDataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKDataBase.h; sourceTree = "<group>"; };
+		1F7B120E20CE6E3600D00EE9 /* YKDataBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKDataBase.m; sourceTree = "<group>"; };
+		1F85F37F20D1FCE1007C1783 /* YZTeamModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZTeamModel.h; sourceTree = "<group>"; };
+		1F85F38020D1FCE1007C1783 /* YZTeamModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZTeamModel.m; sourceTree = "<group>"; };
+		1F85F38220D1FCEC007C1783 /* YZPlayerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPlayerModel.h; sourceTree = "<group>"; };
+		1F85F38320D1FCEC007C1783 /* YZPlayerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPlayerModel.m; sourceTree = "<group>"; };
+		1F85F38920D20F32007C1783 /* YZFieldsAndParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZFieldsAndParameters.h; sourceTree = "<group>"; };
+		1F85F38A20D26D15007C1783 /* YZStatisticsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZStatisticsModel.h; sourceTree = "<group>"; };
+		1F85F38B20D26D15007C1783 /* YZStatisticsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZStatisticsModel.m; sourceTree = "<group>"; };
 		1F89177E1F9897AC004E0443 /* NSString+URLCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLCoder.h"; sourceTree = "<group>"; };
 		1F89177F1F9897AC004E0443 /* NSString+URLCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLCoder.m"; sourceTree = "<group>"; };
 		1F8B680B1ED2B37700623DE1 /* YZBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZBasicViewController.h; sourceTree = "<group>"; };
@@ -285,6 +317,12 @@
 		1FA674A71F7C9A8300A67C28 /* GCDAsynSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsynSocketManager.m; path = ../../ManagerandTools/GCDAsynSocketManager.m; sourceTree = "<group>"; };
 		1FB574D3207232F70066A5CC /* YZScanChooseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZScanChooseViewController.h; sourceTree = "<group>"; };
 		1FB574D4207232F70066A5CC /* YZScanChooseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZScanChooseViewController.m; sourceTree = "<group>"; };
+		1FC567BD20CF560C000591EB /* YZCheckinPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZCheckinPageController.h; sourceTree = "<group>"; };
+		1FC567BE20CF560C000591EB /* YZCheckinPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZCheckinPageController.m; sourceTree = "<group>"; };
+		1FC567C020CF565C000591EB /* YZCheckinCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZCheckinCell.h; sourceTree = "<group>"; };
+		1FC567C120CF565C000591EB /* YZCheckinCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZCheckinCell.m; sourceTree = "<group>"; };
+		1FC567C320CF6FA9000591EB /* YZCodeSave.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZCodeSave.h; sourceTree = "<group>"; };
+		1FC567C420CF6FA9000591EB /* YZCodeSave.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZCodeSave.m; sourceTree = "<group>"; };
 		1FD409F51EDEB23200CF4045 /* Section.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Section.entitlements; sourceTree = "<group>"; };
 		1FD427DD1F97535000813C74 /* CrazyEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrazyEncrypt.h; sourceTree = "<group>"; };
 		1FD427DE1F97535000813C74 /* CrazyEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrazyEncrypt.m; sourceTree = "<group>"; };
@@ -293,6 +331,8 @@
 		1FD427E11F97535000813C74 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		1FD427E21F97535000813C74 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		1FD427E31F97535000813C74 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		1FF32E0B20B5098700DF5A86 /* YZSocketRocketUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSocketRocketUtility.h; sourceTree = "<group>"; };
+		1FF32E0C20B5098700DF5A86 /* YZSocketRocketUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSocketRocketUtility.m; sourceTree = "<group>"; };
 		1FF7FF8A2064E70100B047C4 /* AipBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AipBase.framework; sourceTree = "<group>"; };
 		1FF7FF8B2064E70100B047C4 /* AipOcrSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AipOcrSdk.framework; sourceTree = "<group>"; };
 		1FF7FF8C2064E70100B047C4 /* IdcardQuality.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IdcardQuality.framework; sourceTree = "<group>"; };
@@ -387,6 +427,7 @@
 		1F3B84931E2F152B00F5753A /* Section */ = {
 			isa = PBXGroup;
 			children = (
+				1F7B120220CE6DD800D00EE9 /* STSProject */,
 				1FD409F51EDEB23200CF4045 /* Section.entitlements */,
 				1F9DD82B1E5A9A5700C10E92 /* FoundPage */,
 				1F9DD8301E5A9A5700C10E92 /* FriendPage */,
@@ -541,6 +582,110 @@
 				1F6DB88F1EB86206003BC8EE /* UPMutUploaderManager.m */,
 			);
 			path = UPMutUpload;
+			sourceTree = "<group>";
+		};
+		1F7B120220CE6DD800D00EE9 /* STSProject */ = {
+			isa = PBXGroup;
+			children = (
+				1F7B120320CE6DD800D00EE9 /* ViewModel */,
+				1F7B120520CE6DD800D00EE9 /* Other */,
+				1F7B120620CE6DD800D00EE9 /* MainPage */,
+				1F7B120720CE6DD800D00EE9 /* DataBase_otc */,
+				1F7B120820CE6DD800D00EE9 /* Model */,
+				1F7B120920CE6DD800D00EE9 /* View */,
+				1F7B120A20CE6DD800D00EE9 /* SetPage */,
+				1F7B120B20CE6DD800D00EE9 /* ScorePage */,
+				1F7B120C20CE6DD800D00EE9 /* CheckinPage */,
+			);
+			path = STSProject;
+			sourceTree = "<group>";
+		};
+		1F7B120320CE6DD800D00EE9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1F08ED0420D8ED9A007D9882 /* YZDefaultViewModel.h */,
+				1F08ED0520D8ED9A007D9882 /* YZDefaultViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1F7B120520CE6DD800D00EE9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1F85F38920D20F32007C1783 /* YZFieldsAndParameters.h */,
+				1FC567C320CF6FA9000591EB /* YZCodeSave.h */,
+				1FC567C420CF6FA9000591EB /* YZCodeSave.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		1F7B120620CE6DD800D00EE9 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				1FC567BD20CF560C000591EB /* YZCheckinPageController.h */,
+				1FC567BE20CF560C000591EB /* YZCheckinPageController.m */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		1F7B120720CE6DD800D00EE9 /* DataBase_otc */ = {
+			isa = PBXGroup;
+			children = (
+				1F7B120D20CE6E3600D00EE9 /* YKDataBase.h */,
+				1F7B120E20CE6E3600D00EE9 /* YKDataBase.m */,
+			);
+			path = DataBase_otc;
+			sourceTree = "<group>";
+		};
+		1F7B120820CE6DD800D00EE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F85F37F20D1FCE1007C1783 /* YZTeamModel.h */,
+				1F85F38020D1FCE1007C1783 /* YZTeamModel.m */,
+				1F85F38220D1FCEC007C1783 /* YZPlayerModel.h */,
+				1F85F38320D1FCEC007C1783 /* YZPlayerModel.m */,
+				1F85F38A20D26D15007C1783 /* YZStatisticsModel.h */,
+				1F85F38B20D26D15007C1783 /* YZStatisticsModel.m */,
+				1F08ED1320D903B6007D9882 /* YZVoiceModel.h */,
+				1F08ED1420D903B6007D9882 /* YZVoiceModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F7B120920CE6DD800D00EE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1FC567C020CF565C000591EB /* YZCheckinCell.h */,
+				1FC567C120CF565C000591EB /* YZCheckinCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F7B120A20CE6DD800D00EE9 /* SetPage */ = {
+			isa = PBXGroup;
+			children = (
+				1F08ED0D20D8EEC6007D9882 /* YZSetBaseViewController.h */,
+				1F08ED0E20D8EEC6007D9882 /* YZSetBaseViewController.m */,
+			);
+			path = SetPage;
+			sourceTree = "<group>";
+		};
+		1F7B120B20CE6DD800D00EE9 /* ScorePage */ = {
+			isa = PBXGroup;
+			children = (
+				1F08ED0A20D8EEB6007D9882 /* YZScoreAllViewController.h */,
+				1F08ED0B20D8EEB6007D9882 /* YZScoreAllViewController.m */,
+			);
+			path = ScorePage;
+			sourceTree = "<group>";
+		};
+		1F7B120C20CE6DD800D00EE9 /* CheckinPage */ = {
+			isa = PBXGroup;
+			children = (
+				1F08ED0720D8EDD8007D9882 /* YZCheckInViewController.h */,
+				1F08ED0820D8EDD8007D9882 /* YZCheckInViewController.m */,
+			);
+			path = CheckinPage;
 			sourceTree = "<group>";
 		};
 		1F9DD82B1E5A9A5700C10E92 /* FoundPage */ = {
@@ -807,6 +952,8 @@
 				1F5CCCCD1ECEC90C006DB3F0 /* YZUserManager.m */,
 				1F06C1652064B1C400938322 /* UIColor+UIColor.h */,
 				1F06C1642064B1C400938322 /* UIColor+UIColor.m */,
+				1FF32E0B20B5098700DF5A86 /* YZSocketRocketUtility.h */,
+				1FF32E0C20B5098700DF5A86 /* YZSocketRocketUtility.m */,
 			);
 			path = ManagerandTools;
 			sourceTree = "<group>";
@@ -875,7 +1022,6 @@
 				1F3B848D1E2F152B00F5753A /* Sources */,
 				1F3B848E1E2F152B00F5753A /* Frameworks */,
 				1F3B848F1E2F152B00F5753A /* Resources */,
-				5ECA509E23F856D55F948876 /* [CP] Embed Pods Frameworks */,
 				D97CE116FEDE863D62E26493 /* [CP] Copy Pods Resources */,
 				1F42A7851FB44DB000AC2680 /* Embed App Extensions */,
 				1FF7FF892064E53D00B047C4 /* Embed Frameworks */,
@@ -955,7 +1101,7 @@
 				TargetAttributes = {
 					1F3B84901E2F152B00F5753A = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = M75ML254GL;
+						DevelopmentTeam = EE5C47GA2M;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -973,7 +1119,7 @@
 					};
 					1F42A7731FB44DAF00AC2680 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = M75ML254GL;
+						DevelopmentTeam = EE5C47GA2M;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1040,21 +1186,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5ECA509E23F856D55F948876 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Section/Pods-Section-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C9F013CB9DB339FDF0A522AF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1090,7 +1221,13 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-back.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-help.html",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-helpicons.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-samples.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1104,20 +1241,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC567C520CF6FA9000591EB /* YZCodeSave.m in Sources */,
+				1F7B120F20CE6EFC00D00EE9 /* YKDataBase.m in Sources */,
 				1F3B66D01E5D7E970011A4B2 /* YZPrivateMessageView.m in Sources */,
+				1F85F38420D1FCEC007C1783 /* YZPlayerModel.m in Sources */,
 				1F714FD81F0E1BF400D008D3 /* YZFoolPageController.m in Sources */,
 				1FB574D5207232F70066A5CC /* YZScanChooseViewController.m in Sources */,
 				1F3B849C1E2F152B00F5753A /* ViewController.m in Sources */,
 				1F5CCCCE1ECEC90C006DB3F0 /* YZUserManager.m in Sources */,
 				1F6DB89F1EB86206003BC8EE /* UPYUNConfig.m in Sources */,
+				1FF32E0D20B5098700DF5A86 /* YZSocketRocketUtility.m in Sources */,
 				1F6DB8971EB86206003BC8EE /* UpSimpleHttpClient.m in Sources */,
 				1FD427E41F97535000813C74 /* CrazyEncrypt.m in Sources */,
+				1F08ED0C20D8EEB6007D9882 /* YZScoreAllViewController.m in Sources */,
 				1F9DD8461E5A9A9700C10E92 /* YZBasicTabbarController.m in Sources */,
 				1F6DB8991EB86206003BC8EE /* UPHTTPClient.m in Sources */,
 				1F3B84C91E2F166200F5753A /* CheckUpTableViewController.m in Sources */,
 				1FA2B4291EB0411200525C59 /* YZBlueToothServiceModel.m in Sources */,
 				1F6DB89C1EB86206003BC8EE /* NSString+NSHash.m in Sources */,
 				1F06C1622064AEBD00938322 /* QZLNetworkManger.m in Sources */,
+				1F08ED1520D903B6007D9882 /* YZVoiceModel.m in Sources */,
 				1F3B84991E2F152B00F5753A /* AppDelegate.m in Sources */,
 				1F4603461E5BF34200CE1C9F /* YZGuidePage.m in Sources */,
 				1F6DB8961EB86206003BC8EE /* UpApiUtils.m in Sources */,
@@ -1125,16 +1268,22 @@
 				1F6DB89E1EB86206003BC8EE /* UpYun.m in Sources */,
 				1FFCC65C206A251900927B23 /* YZTableViewCell.m in Sources */,
 				1F6DB89B1EB86206003BC8EE /* NSData+MD5Digest.m in Sources */,
+				1F08ED0620D8ED9A007D9882 /* YZDefaultViewModel.m in Sources */,
 				1F6DB8981EB86206003BC8EE /* UPHTTPBodyPart.m in Sources */,
 				1F9FD4291F8B083300E44AC7 /* YZDemoSession.m in Sources */,
+				1FC567BF20CF560C000591EB /* YZCheckinPageController.m in Sources */,
 				1F9DD8621E5AC96C00C10E92 /* YZFriendPageViewController.m in Sources */,
 				1F9DD8591E5AC62100C10E92 /* YZUnit.m in Sources */,
+				1F85F38C20D26D15007C1783 /* YZStatisticsModel.m in Sources */,
 				1F3B84961E2F152B00F5753A /* main.m in Sources */,
 				1F06C1612064AEBD00938322 /* QZLRequest.m in Sources */,
 				1F9DD8651E5AC98000C10E92 /* YZMyPageViewController.m in Sources */,
+				1FC567C220CF565C000591EB /* YZCheckinCell.m in Sources */,
 				1FD427E51F97535000813C74 /* DES.m in Sources */,
 				1F9DD84C1E5A9D3100C10E92 /* YZTabbarAnimationView.m in Sources */,
 				1F6DB8A21EB86FA1003BC8EE /* NetworkManager.m in Sources */,
+				1F08ED0F20D8EEC6007D9882 /* YZSetBaseViewController.m in Sources */,
+				1F85F38120D1FCE1007C1783 /* YZTeamModel.m in Sources */,
 				1F9DD8561E5AC49200C10E92 /* UIView+ChangeSize.m in Sources */,
 				1F06C1692064CD5400938322 /* YZCustomCameraViewController.m in Sources */,
 				1F6DB89A1EB86206003BC8EE /* UPMultipartBody.m in Sources */,
@@ -1142,6 +1291,7 @@
 				1F6DB8951EB86206003BC8EE /* UpYunFormUploader.m in Sources */,
 				1F9DD85F1E5AC95D00C10E92 /* YZFoundPageViewController.m in Sources */,
 				1F2BF0C41F02495000C26755 /* YZXIBView.m in Sources */,
+				1F08ED0920D8EDD8007D9882 /* YZCheckInViewController.m in Sources */,
 				1F03ED691F0F8C82001ED450 /* YZMainPageViewController.m in Sources */,
 				1F9DD8511E5ABC0A00C10E92 /* YZTabbarButton.m in Sources */,
 				1FA674A81F7C9A8300A67C28 /* GCDAsynSocketManager.m in Sources */,
@@ -1311,7 +1461,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = M75ML254GL;
+				DEVELOPMENT_TEAM = EE5C47GA2M;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1344,7 +1494,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = M75ML254GL;
+				DEVELOPMENT_TEAM = EE5C47GA2M;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1424,7 +1574,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: lei shi (4TD33EVVQU)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = M75ML254GL;
+				DEVELOPMENT_TEAM = EE5C47GA2M;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TDEXLeader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
@@ -1445,7 +1595,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: lei shi (4TD33EVVQU)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = M75ML254GL;
+				DEVELOPMENT_TEAM = EE5C47GA2M;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TDEXLeader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;

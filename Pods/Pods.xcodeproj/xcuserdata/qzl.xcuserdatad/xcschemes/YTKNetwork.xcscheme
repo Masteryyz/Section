@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1B8B471E9D6170AD510BC4574F17BFC2'
-               BlueprintName = 'YTKNetwork'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libYTKNetwork.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1B7863FCDACF341449996F42D5E9774F"
+               BlueprintName = "YTKNetwork"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libYTKNetwork.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

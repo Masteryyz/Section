@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4987E797FCDA918C02712476F0C2C17F'
-               BlueprintName = 'SDCycleScrollView'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libSDCycleScrollView.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A6D794446E16DC9C721DFB28537457C7"
+               BlueprintName = "SDCycleScrollView"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libSDCycleScrollView.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

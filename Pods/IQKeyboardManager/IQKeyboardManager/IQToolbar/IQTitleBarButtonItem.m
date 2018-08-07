@@ -28,12 +28,14 @@
 #import <UIKit/UILabel.h>
 #import <UIKit/UIButton.h>
 
+@interface IQTitleBarButtonItem ()
+
+@property(nonatomic, strong) UIView *titleView;
+@property(nonatomic, strong) UIButton *titleButton;
+
+@end
+
 @implementation IQTitleBarButtonItem
-{
-    UIView *_titleView;
-    UIButton *_titleButton;
-}
-@synthesize titleFont = _titleFont;
 
 -(nonnull instancetype)initWithTitle:(nullable NSString *)title
 {
@@ -54,7 +56,8 @@
         [self setTitleFont:[UIFont systemFontOfSize:13.0]];
         [_titleView addSubview:_titleButton];
         
-        if (IQ_IS_IOS11_OR_GREATER)
+#ifdef __IPHONE_11_0
+        if (@available(iOS 11.0, *))
         {
             CGFloat layoutDefaultLowPriority = UILayoutPriorityDefaultLow-1;
             CGFloat layoutDefaultHighPriority = UILayoutPriorityDefaultHigh-1;
@@ -78,6 +81,7 @@
             [_titleView addConstraints:@[top,bottom,leading,trailing]];
         }
         else
+#endif
         {
             _titleView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
             _titleButton.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
@@ -108,10 +112,16 @@
     [_titleButton setTitle:title forState:UIControlStateNormal];
 }
 
--(void)setSelectableTextColor:(UIColor*)selectableTextColor
+-(void)setTitleColor:(UIColor*)titleColor
 {
-    _selectableTextColor = selectableTextColor;
-    [_titleButton setTitleColor:_selectableTextColor forState:UIControlStateNormal];
+    _titleColor = titleColor;
+    [_titleButton setTitleColor:_titleColor?:[UIColor lightGrayColor] forState:UIControlStateDisabled];
+}
+
+-(void)setSelectableTitleColor:(UIColor*)selectableTitleColor
+{
+    _selectableTitleColor = selectableTitleColor;
+    [_titleButton setTitleColor:_selectableTitleColor?:[UIColor colorWithRed:0.0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
 }
 
 -(void)setInvocation:(NSInvocation *)invocation
@@ -130,6 +140,14 @@
         _titleButton.enabled = YES;
         [_titleButton addTarget:invocation.target action:invocation.selector forControlEvents:UIControlEventTouchUpInside];
     }
+}
+
+-(void)dealloc
+{
+    self.customView = nil;
+    [_titleButton removeTarget:nil action:NULL forControlEvents:UIControlEventTouchUpInside];
+    _titleView = nil;
+    _titleButton = nil;
 }
 
 @end

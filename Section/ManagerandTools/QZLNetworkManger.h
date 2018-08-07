@@ -13,6 +13,9 @@ typedef void (^QZLRequestBlock)(YTKBaseRequest *request);
 
 typedef void(^NetworkResponse)(id responseObj);
 
+typedef void (^Success)(id responseObject);
+typedef void (^Failed)(NSError * error);
+
 //typedef NS_ENUM(NSInteger, KZoneRequestResult) {
 //    KZoneRequestFailure = 0,
 //    KZoneRequestSuccess,
@@ -25,6 +28,19 @@ typedef void(^NetworkResponse)(id responseObj);
 @property (nonatomic, strong) NSOperationQueue * queue;
 
 @property (nonatomic, copy) NetworkResponse responseBlock;
+
+// ==================================================================================================================================
+
+// ========================================================  语音技统接口  ============================================================
+
++ (void)amateurstatistic_saveMatchScore:(NSDictionary *)rArgument responseResult:(QZLRequestBlock)resultBlock;
+
++ (void)startLoginBCBC:(NSMutableDictionary *)paramsDict responseSuccess:(Success)success responseFailed:(Failed)failed;
+
++ (void)cbo_queryPlayByTeam:(NSDictionary *)rArgument responseSuccess:(Success)success responseFailed:(Failed)failed token:(NSString *)token;
+
+// ==================================================================================================================================
+
 
 /**
  发送扫描信息

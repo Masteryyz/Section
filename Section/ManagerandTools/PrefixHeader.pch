@@ -34,8 +34,9 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 //https://git.coding.net/yao_operator/Section.git
-
 //dadaadadaadadadad
+//语音技统模块
+#import "YZFieldsAndParameters.h"
 
 #pragma -- 系统相关 --
 #import <AudioToolbox/AudioToolbox.h>

@@ -44,7 +44,7 @@
     self.navigationItem.title = @"球联客";
     
     UIWebView *webView = [[UIWebView alloc]
-                          initWithFrame: CGRectMake(0,64,WIDTH, HEIGHT - 64)];
+                          initWithFrame: CGRectMake(0,0,WIDTH, HEIGHT - 64)];
     
     if (!_urlString.length) {
         
