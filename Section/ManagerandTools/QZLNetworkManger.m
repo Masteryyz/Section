@@ -151,7 +151,24 @@ static QZLNetworkManger * managerInstance = nil;
 }
 
 /**
- 发送扫描信息
+ 发送扫描信息 (认证)
+ */
++ (void)signups_Apply:(NSDictionary *)rArgument responseResult:(QZLRequestBlock)resultBlock {
+    
+    NSMutableDictionary *dic = [[NSMutableDictionary alloc] init];
+    dic[@"channel"] = @"ios";
+    dic[@"version"] = [self getVersion];
+    dic[@"service"] = @"signups";
+    dic[@"method"] = @"apply";
+    dic[@"params"] = rArgument;
+    dic[@"sn"] = [self creatUUID];
+    
+    [QZLNetworkManger startRequestWithParamas:dic andResponseResult:resultBlock];
+    
+}
+
+/**
+ 发送扫描信息 (添加)
  */
 + (void)signups_newApply:(NSDictionary *)rArgument responseResult:(QZLRequestBlock)resultBlock {
     

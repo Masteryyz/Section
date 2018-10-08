@@ -103,12 +103,20 @@ G8TesseractDelegate
     [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
     
     //    [[AipOcrService shardService] authWithAK:@"RVTMAs8Ph42BqrvKtZrVZkKu" andSK:@"ndu0Xi1WVHAjgu2z9VpymmGEGYCjW9d0"]; //__ YYZ
-    //    [[AipOcrService shardService] authWithAK:@"9KVf9lcs3Gilf1TGFvx9bLT4" andSK:@"4QVfbXGusIqgeGklyEjbZgApREAZbjjz"]; //__ QY
+    //    [[AipOcrService shardService] authWithAK:@"9KVf9lcs3Gilf1TGFvx9bLT4" andSK:@"4QVfbXGusIqgeGklyEjbZgApREAZbjjz"]; //__ 乔颖
     //
     //    [[AipOcrService shardService] authWithAK:@"y8MulB3ojLBXyQPKFte623lo" andSK:@"wvthCO3M672ShMcGOHyFUrgXIbufSdMZ"]; //__ ZH
     
     //    扫卡验证新版
-    [[AipOcrService shardService] authWithAK:@"NuEo4LbD3WG3mbn1Lt4mbFtB" andSK:@"9eiEoCbpvSyP4OFGF0yyjeQRfa3YRoY0"]; //__ YYZ
+//    [[AipOcrService shardService] authWithAK:@"NuEo4LbD3WG3mbn1Lt4mbFtB" andSK:@"9eiEoCbpvSyP4OFGF0yyjeQRfa3YRoY0"]; //__ YYZ
+//    [[AipOcrService shardService] authWithAK:@"qh54M3rKp4byNZ9mN2m99r9X" andSK:@"KojD1O3gkUIZpnMUVEVmR8VpHkt7Bnzl"]; //__ 赵兴荣
+//    [[AipOcrService shardService] authWithAK:@"KOdWzBpjSMnWDWcZZr0OEc2I" andSK:@"tpYGcQGdtm1IpKkm8U40h8XWfRykmaey"]; //__ 韩阳
+    
+//    [[AipOcrService shardService] authWithAK:@"8btSXj7EDH8mWYZFBzUWDBNM" andSK:@"5tZ78ywK80eGTu0BzZdG6WKLC1O0GqGP"]; //__ 冯雪
+    
+        [[AipOcrService shardService] authWithAK:@"lpOH3Gd2GnxUhM5B5b6pjUTX" andSK:@"f4Orx7AX35EU7Dpvzt9ncC5HtQCEBX3u"]; //__ 张硕
+    
+    
     
     [self setUpUI];
     [self configCallback];
@@ -306,7 +314,7 @@ G8TesseractDelegate
                     ) {
                     
                     if (NoIndex == -1) {
-                     
+                        
                         NoIndex = idx;
                         
                     }
@@ -526,7 +534,7 @@ G8TesseractDelegate
                 NSString * signDate_Str = [NSString stringWithFormat:@"%@" , [[_resultArray objectAtIndex:6] valueForKey:@"words"]];
                 signDate_Str = [signDate_Str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
                 
-                if (signDate_Str.length >= 12) {
+                if (signDate_Str.length >= 11) {
                     
                     signDate_Str = [signDate_Str stringByReplacingOccurrencesOfString:@"." withString:@""];
                     signDate_Str = [signDate_Str stringByReplacingOccurrencesOfString:@"," withString:@""];
@@ -580,33 +588,33 @@ G8TesseractDelegate
 
 - (void) sendtoService:(id) sender {
     
-//    NSArray * array = @[
-//                        @{
-//                            @"birthday" : @"2005-01-15 00:00:00",
-//                            @"englishName" : @"JIA XIAO CHEN",
-//                            @"statiumName" : @"大粑粑",
-//                            @"applyDan" : @"3"
-//                            },
-//
-//                        @{
-//                            @"birthday" : @"2005-01-15 00:00:00",
-//                            @"englishName" : @"JIA XIAO CHEN",
-//                            @"statiumName" : @"小粑粑",
-//                            @"applyDan" : @"2"
-//                            },
-//
-//                        @{
-//                            @"birthday" : @"2005-01-15 00:00:00",
-//                            @"englishName" : @"JIA XIAO CHEN",
-//                            @"statiumName" : @"哎呦喂",
-//                            @"applyDan" : @"1"
-//                            }
-//                        ];
-//
-//    YZCustomCameraViewController * vc = [[YZCustomCameraViewController alloc] init];
-//    vc.dataArray = [NSMutableArray arrayWithArray:array];
-//    [self presentViewController:vc animated:YES completion:nil];
-//    return;
+    //    NSArray * array = @[
+    //                        @{
+    //                            @"birthday" : @"2005-01-15 00:00:00",
+    //                            @"englishName" : @"JIA XIAO CHEN",
+    //                            @"statiumName" : @"大粑粑",
+    //                            @"applyDan" : @"3"
+    //                            },
+    //
+    //                        @{
+    //                            @"birthday" : @"2005-01-15 00:00:00",
+    //                            @"englishName" : @"JIA XIAO CHEN",
+    //                            @"statiumName" : @"小粑粑",
+    //                            @"applyDan" : @"2"
+    //                            },
+    //
+    //                        @{
+    //                            @"birthday" : @"2005-01-15 00:00:00",
+    //                            @"englishName" : @"JIA XIAO CHEN",
+    //                            @"statiumName" : @"哎呦喂",
+    //                            @"applyDan" : @"1"
+    //                            }
+    //                        ];
+    //
+    //    YZCustomCameraViewController * vc = [[YZCustomCameraViewController alloc] init];
+    //    vc.dataArray = [NSMutableArray arrayWithArray:array];
+    //    [self presentViewController:vc animated:YES completion:nil];
+    //    return;
     
     if (!_numberField.text.length) {
         [[[UIAlertView alloc] initWithTitle:@"错误" message:@"请输入段位号码" delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
@@ -640,7 +648,7 @@ G8TesseractDelegate
                     @"bir":[_dateField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]],
                     @"oldDanDate":[_signDateField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]
                     };
-
+        
         
     } else {
         
@@ -651,7 +659,7 @@ G8TesseractDelegate
                     @"bir":[_dateField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]
                     
                     };
-
+        
         
     }
     
@@ -684,28 +692,28 @@ G8TesseractDelegate
      }
      */
     
-    [QZLNetworkManger signups_newApply:paramas responseResult:^(YTKBaseRequest *request) {
+    [QZLNetworkManger signups_Apply:paramas responseResult:^(YTKBaseRequest *request) {
         
         NSDictionary * responseJSONObject = [QZLNetworkManger analyticalData:request.responseData];
         
         if ([[responseJSONObject objectForKey:@"success"] intValue] == 1) {
             
-             NSString * str = [NSString stringWithFormat:@"%@" , responseJSONObject[@"entity"][@"msg"]];
+            NSString * str = [NSString stringWithFormat:@"%@" , responseJSONObject[@"entity"][@"msg"]];
+            //
+            //            [SVProgressHUD setMinimumDismissTimeInterval:2];
+            //            [SVProgressHUD showSuccessWithStatus:str];
             
-            [SVProgressHUD setMinimumDismissTimeInterval:2];
-            [SVProgressHUD showSuccessWithStatus:str];
+            //
+            //
+            NSLog(@"%@" , str);
             
-//
-//
-//            NSLog(@"%@" , str);
+            NSArray * array = [NSArray arrayWithArray:(NSArray *)responseJSONObject[@"entity"][@"list"]];
             
-//            NSArray * array = [NSArray arrayWithArray:(NSArray *)responseJSONObject[@"entity"][@"list"]];
-//
-//            YZCustomCameraViewController * vc = [[YZCustomCameraViewController alloc] init];
-//            vc.dataArray = [NSMutableArray arrayWithArray:array];
-//            [self presentViewController:vc animated:YES completion:nil];
+            YZCustomCameraViewController * vc = [[YZCustomCameraViewController alloc] init];
+            vc.dataArray = [NSMutableArray arrayWithArray:array];
+            [self presentViewController:vc animated:YES completion:nil];
             
-//            [SVProgressHUD dismiss];
+            [SVProgressHUD dismiss];
             
         } else {
             

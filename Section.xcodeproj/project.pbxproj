@@ -1101,7 +1101,7 @@
 				TargetAttributes = {
 					1F3B84901E2F152B00F5753A = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = EE5C47GA2M;
+						DevelopmentTeam = M75ML254GL;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -1119,7 +1119,7 @@
 					};
 					1F42A7731FB44DAF00AC2680 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = EE5C47GA2M;
+						DevelopmentTeam = M75ML254GL;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1461,7 +1461,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = EE5C47GA2M;
+				DEVELOPMENT_TEAM = M75ML254GL;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1494,7 +1494,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = EE5C47GA2M;
+				DEVELOPMENT_TEAM = M75ML254GL;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1574,7 +1574,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: lei shi (4TD33EVVQU)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = EE5C47GA2M;
+				DEVELOPMENT_TEAM = M75ML254GL;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TDEXLeader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
@@ -1595,7 +1595,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: lei shi (4TD33EVVQU)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = EE5C47GA2M;
+				DEVELOPMENT_TEAM = M75ML254GL;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TDEXLeader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;

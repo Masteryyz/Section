@@ -41,7 +41,7 @@ typedef void (^Failed)(NSError * error);
 
 // ==================================================================================================================================
 
-
++ (void)signups_Apply:(NSDictionary *)rArgument responseResult:(QZLRequestBlock)resultBlock;
 /**
  发送扫描信息
  */
